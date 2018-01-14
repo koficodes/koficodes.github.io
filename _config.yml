@@ -9,11 +9,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "KofiCodes"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Paul Kofi Karikari"
+description              : "Software Developer / Data Scientist <br>
+                            Msc Computer Science ('19) <br>
+                            @ Università degli Studi di Camerino <br>
+                            ex Tech Lead at Octodisk <br>
+                            I share my taughts on: <br>
+                            Data Science, Machine learning and Software engineering"
+url                      : https://koficodes.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -62,7 +67,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "KofiCodes"
 facebook:
   username               :
   app_id                 :
@@ -84,10 +89,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Paul Kofi Karikari"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Software Developer / Data Scientist <br>
+                      Msc Computer Science ('19) <br>
+                      @ Università degli Studi di Camerino <br>
+                      ex Tech Lead at Octodisk <br>
+                      I share my taughts on: <br>
+                      Data Science, Machine learning and Software engineering"
+  location         : "Camerino, Italy"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -97,7 +107,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "koficodes"
   gitlab           :
   google_plus      :
   keybase          :
@@ -109,7 +119,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "KofiCodes"
   vine             :
   weibo            :
   xing             :
@@ -253,3 +263,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
