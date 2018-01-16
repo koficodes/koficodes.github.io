@@ -1,6 +1,6 @@
 ---
 title: 'What is Data: A beginners guide'
-excerpt: "Data is everywhere and its on the rise, But what do we mean when we say data?"
+excerpt: "Data is everywhere and its on the rise, but what do we mean when we say data?"
 comments: true
 categories:
   - Data science
@@ -82,5 +82,5 @@ Data can be classified in many ways and from different perspective which deserve
 
 ## Names , Names and More Names
 
-If you follow carefully you would realize that there are different ways of naming the same which stems from the field of study, preference or mere convention. This can be overwhelming for a beginner or someone new to a particular field but don’t be discouraged. You might already know what a term means. Its all a matter of familiarity. Don’t feel bad to ask or search Internet. 
+If you follow carefully you would realize that there are different ways of naming the same which stems from the field of study, preference or mere convention. This can be overwhelming for a beginner or someone new to a particular field but don’t be discouraged. You might already know what a term means. Its all a matter of familiarity. Don’t feel bad to ask or search the Internet. 
 
