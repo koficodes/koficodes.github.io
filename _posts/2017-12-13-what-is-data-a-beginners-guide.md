@@ -23,10 +23,10 @@ IT professionals will describe data in terms of entities and attributes.
 
 In a layman’s terms, data describes a person, place, object, event or concept in the user context or environment with its meaning dependent on its organization.
 eg. 
-* In computing different organization of 1’s and 0’s means different things, 
-[0001 = 1  and 0010 = 2]
+* In computing different organization of <b>1’s</b> and <b>0’s</b> means different things, 
+<b>[0001 = 1  and 0010 = 2]</b>.
 
-* In biology different sequence of the genome (A,C,G and T) result in different genetic code which represents different individuals or species.
+* In biology different sequence of the genome <b>(A,C,G and T)</b> result in different genetic code which represents different individuals or species.
 
 * Listing the purchase history with the identity of a customer represents the purchasing habit of that particular individual.
 
@@ -34,7 +34,7 @@ eg.
 
 
 If data is not put into context it’s of no value to humans or a computers. Context is key.  
-* In the context of computing 0001 is the binary representation of 1.  
+* In the context of computing <b>0001</b> is the binary representation of <b>1</b>.  
 * In the context of Italian your tweet in English means nothing even though they might contain the same sequence of characters.
 
 Some say that “facts” are things that can be shown to be true, to exist, or to have
@@ -65,7 +65,7 @@ In the table, rows represent individuals and columns represent variables
 {% raw %}<img src="/assets/images/labled_table.png" alt="">{% endraw %} 
 
 From the above we can say that:  
-<b>Data</b> are pieces of information about <b>individuals</b> organized into variables
+<b>Data</b> are pieces of information about <b>individuals</b> organized into <b>variables</b>
 
 By an <b>individual</b>, we mean a particular person or object.  
 In our scenario the passengers are the individuals.  
@@ -73,7 +73,7 @@ In our scenario the passengers are the individuals.
 
 By a <b>variable</b>, we mean a particular characteristic of the individual.
 In our scenario the variables are Age, Height, Seat Number, Gender, Class.  
-<b>variables</b> are sometimes called observations, variables, or features.
+<b>Variables</b> are sometimes called observations, variables, or features.
 
 Each row, then, gives us all of the information about a particular individual (in this case a passenger), and each column gives us information about a particular characteristic of all of the passengers.
 
