@@ -33,7 +33,7 @@ eg.
 * Your tweets could be a random arrangement of any of the 26 characters in English and spaces. Yet you chose to arrange them in a way to convey meaning.
 
 
-If data is not put into context it’s of no value to humans or a computers. Context is key.  
+If data is not put into context it’s of no value to humans or  computers. Context is key.  
 * In the context of computing <b>0001</b> is the binary representation of <b>1</b>.  
 * In the context of Italian your tweet in English means nothing even though they might contain the same sequence of characters.
 
