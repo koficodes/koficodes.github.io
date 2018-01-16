@@ -12,12 +12,14 @@ locale                   : "en-US"
 title                    : "KofiCodes"
 title_separator          : "-"
 name                     : "Paul Kofi Karikari"
-description              : "Software Developer / Data Scientist <br>
+description              : "Software Developer / Data Scientist. <br>
+
+                            ex Tech Lead at Octodisk. <br>
                             Msc Computer Science ('19) <br>
-                            @ Università degli Studi di Camerino <br>
-                            ex Tech Lead at Octodisk <br>
+                            @ Università degli Studi di Camerino. <br>
+
                             I share my thaughts on: <br>
-                            Data Science, Machine learning and Software engineering"
+                            Data Science, Machine learning and Software engineering."
 url                      : https://koficodes.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -91,10 +93,12 @@ analytics:
 author:
   name             : "Paul Kofi Karikari"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Software Developer / Data Scientist <br>
+  bio              : "Software Developer / Data Scientist. <br>
+
+                      ex Tech Lead at Octodisk. <br>
                       Msc Computer Science ('19) <br>
-                      @ Università degli Studi di Camerino <br>
-                      ex Tech Lead at Octodisk <br>
+                      @ Università degli Studi di Camerino. <br>
+
                       I share my thaughts on: <br>
                       Data Science, Machine learning and Software engineering"
   location         : "Camerino, Italy"
