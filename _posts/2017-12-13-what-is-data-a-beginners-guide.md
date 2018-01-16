@@ -82,5 +82,5 @@ Data can be classified in many ways and from different perspective which deserve
 
 ## Names , Names and More Names
 
-If you follow carefully you would realize that there are different ways of naming the same thing  which stems from the field of study, preference or mere convention. This can be overwhelming for a beginner or someone new to a particular field but don’t be discouraged. You might already know what a term means. Its all a matter of familiarity. Don’t feel bad to ask or search the Internet. 
+If you follow carefully you would realize that there are different ways of naming the same thing  which stems from the field of study, preference or mere convention. This can be overwhelming for a beginner or someone new to a particular field but don’t be discouraged. You might already know what a term means. Its all a matter of familiarity. Don’t feel bad to ask or search the Internet.
 
