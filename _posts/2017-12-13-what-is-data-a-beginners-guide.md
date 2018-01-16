@@ -34,8 +34,8 @@ eg.
 
 
 If data is not put into context it’s of no value to humans or  computers. Context is key.  
-* In the context of computing <b>0001</b> is the binary representation of <b>1</b>.  
-* In the context of Italian your tweet in English means nothing even though they might contain the same sequence of characters.
+* In the context of computing, <b>0001</b> is the binary representation of <b>1</b>.  
+* In the context of Italian,  your tweet in English means nothing even though they might contain the same sequence of characters.
 
 Some say that “facts” are things that can be shown to be true, to exist, or to have
 happened.
