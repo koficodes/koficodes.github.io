@@ -21,9 +21,9 @@ In statistics data is defined as facts or figures from which conclusion can be d
 
 IT professionals will describe data in terms of entities and attributes.
 
-In a layman’s terms, data describes a person, place, object, event or concept in the user context or environment with its meaning dependent on its organization.
+In a layman’s terms, data describes a person, place, object, event or concept in the user context or environment with its meaning dependent on its organization.  
 eg. 
-* In computing different organization of <b>1’s</b> and <b>0’s</b> means different things, 
+* In computing different organization of <b>1’s</b> and <b>0’s</b> means different things,  
 <b>[0001 = 1  and 0010 = 2]</b>.
 
 * In biology different sequence of the genome <b>(A,C,G and T)</b> result in different genetic code which represents different individuals or species.
