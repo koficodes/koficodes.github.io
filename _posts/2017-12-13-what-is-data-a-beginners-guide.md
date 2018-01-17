@@ -11,7 +11,7 @@ tags:
 
 You've probably heard of the word <b>"data"</b> several times maybe in school, from the news,  in your daily work or profession , stumbled upon couple of times on the Internet or anywhere you might find yourself and if you are a data scientist, well your entire profession depends on it.
 
-Data is limitless and its present anywhere in the universe yet using the term data can sometimes be confusing because nearly everyone has an idea of what it means to them.  
+Data is limitless and its present anywhere in the universe, yet using the term data can sometimes be confusing because nearly everyone has an idea of what it means to them.  
 [My data is not your data :smiley: ]
 
 ## Definition
@@ -74,10 +74,10 @@ By a <b>variable</b>, we mean a particular characteristic of the individual.
 In our scenario the variables are Age, Height, Seat Number, Gender, Class.  
 <b>Variables</b> are sometimes called observations, variables, or features.
 
-Each row, then, gives us all of the information about a particular individual (in this case a passenger), and each column gives us information about a particular characteristic of all of the passengers.
+Each row gives us all of the information about a particular individual (in this case a passenger), and each column gives us information about a particular characteristic of all of the passengers.
 
 ## Types of data
-Data can be classified in many ways and from different perspective which deserves its own blog but in short, Data can be classified as <b>raw</b> or <b>processed</b> and can also be classified as <b>qualitative</b> or <b>quantitative</b>.
+Data can be classified in many ways and from different perspective which deserves its own blog but in short, Data can be classified as <b>raw</b> or <b>processed</b>, <b>structured</b> or <b>un-structured</b> and can also be classified as <b>qualitative</b> or <b>quantitative</b>.
 
 ## Names , Names and More Names
 
