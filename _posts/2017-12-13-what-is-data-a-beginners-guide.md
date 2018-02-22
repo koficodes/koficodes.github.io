@@ -3,7 +3,7 @@ title: 'What is Data: A beginners guide'
 excerpt: "Data is everywhere and its on the rise, but what do we mean when we say data?"
 comments: true
 categories:
-  - Data science
+  - Data-science
 tags:
   - Analytics
 ---
