@@ -38,7 +38,7 @@ There are several methods or process used by data scientist in the industry. The
 
 
 Before explaining each step. I would like to bring to mind that you don't necessarily have to follow each step from beginning to end. The deliverables (end result)  of the project should guide you in each step. For instance not all analytics projects require modeling or use of machine learning.  
-Eg. some data science projects that is meant for exploratory and understanding purposes can deliver tabular data or visualizations as their end result for communicating their findings.
+Eg. some data science projects that are meant for exploratory and understanding purposes can deliver tabular data or visualizations as their end result for communicating their findings.
 
 
 ### Business Understanding and Problem definition
@@ -80,14 +80,16 @@ Which kind of marketing campaign suits our customers?
 ### Data Collection
 
 When the business problem is well understood and the  problem is well defined, it's now time to get the data needed to solve the problem. More often the data needed for a data science project is already available in production databases or has already been extracted to a data warehouse. On rare occasions where the data is not available you can collaborate with  domain experts in order to gather the data needed to solve the problem.  
-Be aware of ethical and legal issues concerning the dataset you will be working with and comply with any set of regulations if needed. Eg. datasets that include some form of identity of people should be anonymized so that it can't be linked back to the  real identity of the people.
+Beware of ethical and legal issues concerning the dataset you will be working with and comply with any set of regulations if needed. Eg. datasets that include some form of identity of people should be anonymized so that it can't be linked back to the  real identity of the people.
 ### Data Preparation
 The data collected does not always come in the expected form so it has to be processed before use.  
 Data preparation involves preprocessing and transformation  
 ### Preprocessing  
-Data preprocessing activities usually includes formatting, cleaning , sampling:  
-<b>Formatting:</b> The data needed to solve the problem might not be in the format that you want. Eg. the data may be in a relational database and you require the data to be in a flat file such as a CSV file.  
-<b>Cleaning:</b> There may be missing values in the dataset which need to be addressed by filling them or removing the row from the dataset. There are strategies for filling missing value such as using the mean or average or any value suggested by the domain expert.
+Data preprocessing activities usually includes formatting and cleaning :  
+<b>Formatting:</b> The data needed to solve the problem might not be in the format that you want. Eg. the data may be in a relational database and you require the data to be in a flat file such as a CSV file. The data needs to be
+extracted from the database into a CSV file.  
+
+<b>Cleaning:</b> There may be missing values in the dataset which need to be addressed by filling them or removing the entire row from the dataset. There are strategies for filling missing value such as using the mean or average or any value suggested by the domain expert.
 Subset of the data might not be in the right data type and should be converted to the right type.  
 Eg. converting an amount value from a string to a double/float type. The labels of categorical data types can also be converted to numeric values such 0 and 1.
 
@@ -97,8 +99,8 @@ Three common data transformations are:
 
 <b>Scaling:</b> The dataset may have attributes with different scales such as money in Euros, distances in kilometers, weights in grams etc. Most machine learning algorithms work well with datasets that have common scales between 0 and 1. Where 0 is the minimum and 1 is the maximum.
 Datasets with different scales need to be rescaled before  applying machine learning algorithms.  
-<b>Decomposition:</b> Certain attributes of the dataset are sometimes made up of two attributes fused together, splitting such attributes into separate attributes will help reduce the complexity in the dataset and also benefit the machine learning algorithm applied to the dataset. Eg the monthly salary can be split into number of hours and amount paid per hour.  
-<b>Aggregation</b> Sometimes the combination of two attributes will be much more meaningful to the problem you are  solving.  
+<b>Decomposition:</b> Certain attributes of the dataset are sometimes made up of two attributes fused together, splitting such attributes into separate attributes will help reduce the complexity in the dataset and also benefit the machine learning algorithm applied to the dataset. Eg monthly salary can be split into number of hours and amount paid per hour.  
+<b>Aggregation:</b> Sometimes the combination of two attributes will be much more meaningful to the problem you are  solving.  
 Eg. You can combine dimensions of a real estate into a single attribute called size.
 
 ### Data understanding
@@ -109,7 +111,7 @@ From the information you’ve gathered from the data understanding phase, you wi
 Modeling a dataset means trying to find a function that best represents the underlying pattern within the data. This will make it possible to predict likely outcomes when presented with a new data instance.
 
 ### Evaluation
-The is where you check whether the model you selected is a good model for the problem you are solving. In case of predictive analytics, you will check how the model can make predictions when given a new dataset. You usually go back and forth between modeling and evaluation till you are happy with the performance of the selected model.
+This is where you check whether the model you selected is a good model for the problem you are solving. In case of predictive analytics, you will check how the model can make predictions when given a new dataset. You usually go back and forth between modeling and evaluation till you are happy with the performance of the selected model.
 
 ### Deployment
 
