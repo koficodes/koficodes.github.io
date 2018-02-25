@@ -20,7 +20,7 @@ description              : "Software Developer / Data Scientist. <br>
 
                             I share my thaughts on: <br>
                             Data Science, Machine learning and Software engineering."
-url                      : https://koficodes.github.io/
+url                      : https://koficodes.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -97,7 +97,7 @@ author:
 
                       ex Tech Lead at Octodisk. <br>
                       Msc Computer Science ('19) <br>
-                      @ Università degli Studi di Camerino. <br>
+                      @ University of Camerino<br>
 
                       I share my thaughts on: <br>
                       Data Science, Machine learning and Software engineering"
