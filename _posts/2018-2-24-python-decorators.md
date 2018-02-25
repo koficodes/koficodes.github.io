@@ -176,7 +176,7 @@ Python has several built-in decorators that are part of the language. eg.
 ## Summary
 In this post you learnt that:  
 * A __Decorator__ let you extend a function without modifying its body.  
-* It is a callable that takes a callable as arguments and returns a callable.
+* It is a callable that takes a callable as an argument and returns a callable.
 * It makes your code clean by preventing duplications
 
 
