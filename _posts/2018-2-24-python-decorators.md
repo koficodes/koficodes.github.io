@@ -11,22 +11,22 @@ tags:
 Functions are used to organize statements that does a unit of task. This makes them resuable when we need the same task performed at different parts of our application.  
 Example
 ```python
-def greeter():
+def greet():
     print("Good morning")
 ```
 Now if we want the function above to do more, we can add more statements.
  ```python
- def greeter():
+ def greet():
      print("Good morning")
      print("What is your name")
 ```
-You can clearly see that ```greeter``` is doing more than what it's name says.  
+You can clearly see that ```greet``` is doing more than what it's name says.  
 First it greets and then asks a question which is not ideal.  
 It is a good practice for functions to be focused on a unit of task.  
 
 We can solve that by creating a function for each task, a function that greets and a function thats asks a question
 ```python
-def greeter():
+def greet():
     print("Good morning")
 
 def ask_user_name():
@@ -35,49 +35,49 @@ def ask_user_name():
 Now if we want to greet and ask the user's name.  
 we do this.
 ```python 
-greeter() 
+greet() 
 # Good morning
 ask_user_name() 
 # What is your name
 ```
 This means these two statements will be called at any part of our appliction when we need to greet and ask for user's name. But what if there is a better way?  
-what if any time we call greeter we want to ask the user's name too?  
+what if any time we call greet we want to ask the user's name too?  
 let's give it a try.  
 ```python
-def greeter():
+def greet():
     print("Good morning")
     ask_user_name()
 
-greeter()
+greet()
 # Good morning
 # What is your name
 ```
-From the above we still have a call to ```ask_user_name``` in the body of ```greeter``` which is what we want to avoid.  
+From the above we still have a call to ```ask_user_name``` in the body of ```greet``` which is what we want to avoid.  
 let's try again
 
 ```python
-def greeter():
+def greet():
     print("Good morning")
 
 
 def bind_question(func):
-    def greeter_with_question():
+    def greet_with_question():
         func()
         print("what is your name")
-    return greeter_with_question
+    return greet_with_question
 
-greet_and_ask_name = bind_question(greeter)
+greet_and_ask_name = bind_question(greet)
 greet_and_ask_name()
 # Good morning
 # what is your name
 ```
 
-We've been able to extend the functionality of ```greeter``` without modifying its body. Nice!  
-We can do better by rebinding the ```greeter``` name to the result of ```bind_question```.
+We've been able to extend the functionality of ```greet``` without modifying its body. Nice!  
+We can do better by rebinding the ```greet``` name to the result of ```bind_question```.
 
 ```python
-greeter = bind_question(greeter)
-greeter()
+greet = bind_question(greet)
+greet()
 # Good morning
 # what is your name
 ```
@@ -106,17 +106,17 @@ So instead rebinding the function name to the decorated one,  we can do :
 
 ```python
 def bind_question(func):
-    def greeter_with_question():
+    def greet_with_question():
         func()
         print("what is your name")
-    return greeter_with_question
+    return greet_with_question
 
 @bind_question
-def greeter():
+def greet():
     print("Good morning")
 
 
-greeter()
+greet()
 # Good morning
 # what is your name
 ```
@@ -135,7 +135,7 @@ class Logger:
       print(self.func.__name__+ " called")
 
 @Logger
-def greeter():
+def greet():
     print("Good morning")
 
 @Logger
@@ -143,9 +143,9 @@ def ask_user_name():
     print("what is your name")
 
 
-greeter()
+greet()
 #Good morning
-#greeter called
+#greet called
 
 ask_user_name()
 #what is your name
@@ -159,12 +159,12 @@ We can use more than one decorator at once.
 
 @Logger # a callable class 
 @bind_question # a function 
-def greeter():
+def greet():
     print("Good morning")
 
 # Good morning
 # what is your name
-# greeter_with_question called
+# greet_with_question called
 
 ```
 
