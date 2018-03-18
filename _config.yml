@@ -12,11 +12,11 @@ locale                   : "en-US"
 title                    : "KofiCodes"
 title_separator          : "-"
 name                     : "Paul Kofi Karikari"
-description              : "Software Developer / Data Scientist. <br>
-
+description              : "Software Engineer <br>
+                            (Machine learning & Data science) <br>
                             ex Tech Lead at Octodisk. <br>
                             Msc Computer Science ('19) <br>
-                            @ Università degli Studi di Camerino. <br>
+                            @ University of Camerino. <br>
 
                             I share my thaughts on: <br>
                             Data Science, Machine learning and Software engineering."
@@ -93,11 +93,11 @@ analytics:
 author:
   name             : "Paul Kofi Karikari"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Software Developer / Data Scientist. <br>
-
+  bio              : "Software Engineer <br>
+                      (Machine learning & Data science) <br>
                       ex Tech Lead at Octodisk. <br>
                       Msc Computer Science ('19) <br>
-                      @ University of Camerino<br>
+                      @ University of Camerino. <br>
 
                       I share my thaughts on: <br>
                       Data Science, Machine learning and Software engineering"
