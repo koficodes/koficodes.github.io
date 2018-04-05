@@ -1,6 +1,6 @@
 ---
 title: 'Build a CRUD App in Django with Class based Views'
-excerpt: "A Tutorial on how to build a simple CRUD app in Django using function based views and how to transition from function based views to class based views."
+excerpt: "A Tutorial on how to build a simple CRUD app in Django, using function based views and how to transition from function based views to class based views."
 comments: true
 categories:
   - Software-Engineering
