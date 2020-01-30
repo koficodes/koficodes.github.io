@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "KofiCodes"
+title                    : "Paul Karikari"
 title_separator          : "-"
-name                     : "Paul Kofi Karikari"
+name                     : "Paul Karikari"
 description              : "Software Engineer <br>
                             (Machine learning & Data science) <br>
                             ex Tech Lead at Octodisk. <br>
@@ -20,7 +20,7 @@ description              : "Software Engineer <br>
 
                             I share my thaughts on: <br>
                             Data Science, Machine learning and Software engineering."
-url                      : https://koficodes.github.io
+url                      : https://paulkarikari.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
