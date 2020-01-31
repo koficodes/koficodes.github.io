@@ -29,7 +29,7 @@ words_per_minute         : 200
 comments:
   provider               : 'disqus' # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : koficodes # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : Paul # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -91,7 +91,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Paul Kofi Karikari"
+  name             : "Paul Karikari"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer <br>
                       (Machine learning & Data science) <br>
@@ -101,7 +101,7 @@ author:
 
                       I share my thaughts on: <br>
                       Data Science, Machine learning and Software engineering"
-  location         : "Camerino, Italy"
+  location         : "Luxembourg"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -111,7 +111,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "koficodes"
+  github           : "paulkarikari"
   gitlab           :
   google_plus      :
   keybase          :
