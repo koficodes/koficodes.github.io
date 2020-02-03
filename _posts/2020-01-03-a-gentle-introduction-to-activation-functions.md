@@ -1,6 +1,6 @@
 ---
 title: 'A Gentle Introduction To Activation Functions in Deep Learning'
-excerpt: "Understand what Activation functions are and why they are need in Deep learning models."
+excerpt: "Understand what Activation functions are and why they are needed in Deep learning models."
 comments: true
 categories:
   - Machine-learning
