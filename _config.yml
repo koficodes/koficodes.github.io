@@ -12,14 +12,9 @@ locale                   : "en-US"
 title                    : "Paul Karikari"
 title_separator          : "-"
 name                     : "Paul Karikari"
-description              : "Sr. Software Engineer @ dashboard.lu <br>
-                            (Machine learning & Data science) <br>
-                            ex Tech Lead at Octodisk.<br>
-                            Msc Computer Science ('19) <br>
-                            @ University of Camerino. <br>
-
+description              : "Senior Software Engineer, (Deep Learning and Data Systems) <br>
                             I share my thaughts on: <br>
-                            Data Science, Machine learning and Software engineering."
+                            Data Science, Deep learning and Software engineering."
 url                      : https://paulkarikari.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,14 +88,9 @@ analytics:
 author:
   name             : "Paul Karikari"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Sr. Software Engineer @ dashboard.lu <br>
-                      (Machine learning & Data science) <br>
-                      ex Tech Lead at Octodisk. <br>
-                      Msc Computer Science ('19) <br>
-                      @ University of Camerino. <br>
-
+  bio              : "Senior Software Engineer, (Deep Learning and Data Systems) <br>
                       I share my thaughts on: <br>
-                      Data Science, Machine learning and Software engineering"
+                      Data Science, Deep learning and Software engineering"
   location         : "Luxembourg"
   email            :
   uri              :
