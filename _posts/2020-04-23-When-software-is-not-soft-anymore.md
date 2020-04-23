@@ -62,7 +62,7 @@ Complexity is what you face as a developer at a particular time when you are try
 If you’ve been in software development for a while I bet you’ve already come to the realization that developers read more code than they write.
 The complexity of a piece of code is more obvious to readers of your code. If your own code seems simple to you but others find it difficult to understand then it’s complex. Your job as a developer is not just writing code that works but also to write code that others can understand and work with easily
 
-## Attributes of Complexity
+## Attributes of Software Complexity
 Generally, complexity manifests in three ways.
 
 **Change amplification**: This happens when multiple parts of a software system have to be modified to satisfy one simple requirement.
